@@ -1,0 +1,21 @@
+<div id="history-menu"> 
+     <p (click)="toggleShowMarshalls()">Grand Marshalls</p>
+      <p (click)="toggleShowRides()">Ride History</p>
+      <p (click)="toggleShowThemes()">Themes Gone Past</p>
+</div>
+     
+  
+    <div class="history-view-wrapper" id="fair-history-wrapper">
+        <h2 id="history-heading" *ngIf="!showRides && !showMarshalls && !showThemes">Select an area of Fair History</h2>
+        <div *ngIf="showRides">
+            <app-rides></app-rides>
+        </div>
+        <div *ngIf="showMarshalls">
+            <app-grand-marshalls></app-grand-marshalls>
+        </div>
+        <div *ngIf="showThemes">
+            <p>show themes</p>
+        </div>
+    </div>
+  
+  

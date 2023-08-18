@@ -1,0 +1,166 @@
+section{
+    width: 100vw;
+    height: 100vh;
+}
+#interactive-fair-map-background{
+    width: 95%;
+    height: 100%;
+}
+#interactive-fair-map-background img{
+    width: 100%;
+    height: 100%;
+}
+.attractions-icon{
+    border-radius: 50%;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    
+}
+
+.attractions-icon img:hover + p{
+    display: block;
+}
+.label{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: none;
+}
+#bullet{
+    top: 70%;
+    left: 60%;
+}
+.bulletLabel{
+    top: 60%;
+    left: 10%;
+}
+
+#helicopters{
+    top: 70%;
+    left: 50%;
+}
+.helicoptersLabel{
+    top: 70%;
+    left: 50%;
+}
+#bigFerris{
+    top: 60%;
+    left: 39%;
+}
+.bigFerrisLabel{
+    top: 60%;
+    left: 39%;
+}
+#tiltAWhirl{
+    top: 58%;
+    left: 29%;
+}
+.tiltAWhirlLabel{
+    top: 58%;
+    left: 29%;
+}
+#roundUp{
+    top: 54%;
+    left: 19%;
+}
+.roundUpLabel{
+    top: 54%;
+    left: 19%;
+}
+#rollerCoaster{
+    top: 62%;
+    left: 70%;
+}
+.rollerCoasterLabel{
+    top: 62%;
+    left: 70%;
+}
+#scrambler{
+    top: 53%;
+    left: 65%;
+}
+.scramblerLabel{
+    top: 53%;
+    left: 65%;
+}
+#merryGoRound{
+    top: 48%;
+    left: 58%;
+}
+.merryGoRoundLabel{
+    top: 48%;
+    left: 58%;
+}
+#boats{
+    top: 44%;
+    left: 53%;
+}
+.boatsLabel{
+    top: 44%;
+    left: 53%;
+}
+#cars{
+    top: 44%;
+    left: 48%
+}
+.carsLabel{
+    top: 44%;
+    left: 48%
+}
+#kiddieTrain{
+    top: 48%;
+    left: 48%;
+}
+.kiddieTrainLabel{
+    top: 48%;
+    left: 48%;
+}
+#kiddieFerris{
+    top: 39%;
+    left: 49%;
+}
+.kiddieFerrisLabel{
+    top: 39%;
+    left: 49%;
+}
+#westernRailroad{
+    top: 39%;
+    left: 44%;
+}
+.westernRailroadLabel{
+    top: 39%;
+    left: 44%;
+}
+
+#mapUnavailable{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    content: "Map Unavailable at this time.";
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    #interactive-fair-map-background{
+       display: none;
+       
+    }
+    #mapUnavailable{
+        display: block;
+       
+       
+}
+    #mapUnavailable p{
+        position: relative;
+        top: 50%;
+        left: 25%;
+        
+    }
+    
+}

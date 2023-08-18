@@ -1,0 +1,5 @@
+section{
+    width: 100vw;
+    max-height: 95vh;
+    overflow: scroll;
+}

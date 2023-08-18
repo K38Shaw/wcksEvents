@@ -1,0 +1,36 @@
+.holding{
+    min-height: 500px;
+    background-color: black;
+    color: white;
+}
+.image{
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.keith{
+    background-image: url("../../assets/images/kiethFlipped.png");
+ }
+ .cowboy{
+     background-image: url("../../assets/images/BSInTheDirt.jpeg");
+ }
+ .bucking{
+     background-image: url("../../assets/images/travelWaCoBucking.jpeg");
+ }
+ .rearing{
+     background-image: url("../../assets/images/BSRearing.jpeg");
+ }
+ .flag{
+     background-image: url("../../assets/images/coasterPavillion.jpeg");
+ }
+ .train{
+     background-image: url("../../assets/images/BSUnionPacific.jpeg");
+ }
+ .westernRR{
+     background-image: url("../../assets/images/westernRailroad.jpeg");
+ }
+ .elevator{
+     background-image: url("../../assets/images/BSElevatorLeg.jpeg");
+ }

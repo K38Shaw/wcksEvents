@@ -1,0 +1,20 @@
+<div id="ride-history-wrapper" >
+  <div *ngFor="let ride of rides">
+    <mat-card class="ride-card">
+      <mat-card-header>
+        <div mat-card-avatar class="ride-game-icon"></div>
+        <mat-card-title>{{ride.name}}</mat-card-title>
+        <mat-card-subtitle>Item {{ride.numberOnFairMap}} on Fair Map</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src={{ride.imageSrc}} class="ride-image" alt="{{ride.name}}" >
+      <mat-card-content>
+        <p>{{ride.description}}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>BACK</button>
+        <button mat-button>NEXT</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  
+</div>
