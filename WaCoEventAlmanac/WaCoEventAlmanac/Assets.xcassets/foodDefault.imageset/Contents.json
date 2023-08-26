@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "mapIcon.png",
+      "filename" : "foodDefault.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "mapIcon.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
