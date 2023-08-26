@@ -19,6 +19,6 @@ struct ScheduleItem: Identifiable{
 
 
 var scheduleItems = [
-    ScheduleItem(day: "May 14th", time: "8:00 a.m.", location: "Parish Hall", isFavorite: false, name: "Registration", description: "Register for Mutton Busting"),
+    ScheduleItem(day: "May 14th", time: "8:00 a.m.", location: "Parish Hall", isFavorite: false, name: "Registration", description: "Register for Rodeo Events"),
     ScheduleItem(day: "May 15th", time: "4:00 p.m.", location: "Ft. Wallace Rodeo Grounds", isFavorite: false, name: "Mutton Busting", description: "Little kids + Helmets + Sheep = Funny")
 ]

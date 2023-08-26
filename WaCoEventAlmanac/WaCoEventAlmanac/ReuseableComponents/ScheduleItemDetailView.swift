@@ -11,23 +11,18 @@ struct ScheduleItemDetailView: View {
     var scheduleItem: ScheduleItem
     var body: some View {
         VStack(alignment: .leading){
-            HStack{
-                Image("juggleShapes").resizable().frame(width: 100, height: 100)
-                VStack {
-                    HStack{
-                        Text(scheduleItem.day)
-                            .font(.title2)
-                        Text(scheduleItem.time).font(.title2)
-                    }
-                    Text(scheduleItem.location).font(.title2)
-                }.frame(width: 270)
-                
-            }.frame(width: 300)
-            Text(scheduleItem.name).font(.largeTitle)
-            Text(scheduleItem.description)
-               
-            
-        }.frame(width: 340, height: 400).padding().border(Color.black, width: 3)
+            Image("juggleShapes").resizable().frame(width: 200, height: 200).aspectRatio(contentMode: .fit)
+            VStack(alignment: .leading){
+                Text(scheduleItem.name).font(.largeTitle)
+                HStack{
+                    Text(scheduleItem.day)
+                        .font(.title2)
+                    Text(scheduleItem.time).font(.title2)
+                }
+                Text(scheduleItem.location).font(.title2)
+                Text(scheduleItem.description).font(.title2)
+            }
+        }
     }
 }
 

@@ -15,9 +15,8 @@ struct ScheduleItemView: View {
                 Image("juggleShapes").resizable().frame(width:80, height: 80)
                 
                 VStack(alignment: .leading){
-                    Text(scheduleItem.name)
-                    Text(scheduleItem.time).font(.caption)
-                    Text(scheduleItem.location).font(.caption)
+                    Text(scheduleItem.name).font(.title2).bold()
+                    Text(scheduleItem.time)
                 }.padding(.trailing, 90)
                 
                 Image("starIcon").resizable().frame(width: 40, height: 40)

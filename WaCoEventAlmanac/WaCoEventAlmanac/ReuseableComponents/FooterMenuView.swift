@@ -10,7 +10,7 @@ import SwiftUI
 struct FooterMenuView: View {
     var menuItem: MainNavItem
     var body: some View {
-        NavigationView{
+       
            HStack{
                 ForEach(mainMenuItems){
                     menuItem in
@@ -37,10 +37,10 @@ struct FooterMenuView: View {
                             FooterMenuItemView(menuItem: menuItem)}
                     }
                 }
-           }
-        }.frame(height: 100)
+           }.frame(height: 100)
+        }
     }
-}
+
 struct FooterMenuView_Previews: PreviewProvider {
     static var previews: some View {
         FooterMenuView(menuItem: MainNavItem(image: "juggleShapes", name: "Lets Go"))

@@ -21,9 +21,10 @@ var menuItems = [
     MenuItem(image: "restaurant", name: "Vendors"),
     MenuItem(image: "emergencyIcon", name: "Sponsors"),
     MenuItem(image: "firstAidIcon", name: "First Aid"),
-    MenuItem(image: "history", name: "History"),
-    MenuItem(image: "clipboardIcon", name: "Volunteer/Activity Sign Up"),
     MenuItem(image: "juggleShapes", name: "Discover Wallace County")
+    //MenuItem(image: "history", name: "History"),
+   // MenuItem(image: "clipboardIcon", name: "Volunteer/Activity Sign Up"),
+    //Items Commented out if no information available at present
 ]
 
 struct MainNavItem: Identifiable{

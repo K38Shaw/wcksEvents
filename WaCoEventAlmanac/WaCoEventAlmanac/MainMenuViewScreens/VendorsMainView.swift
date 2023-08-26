@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct VendorsMainView: View {
+    var vendor: Vendor
     var body: some View {
-        Text("Vendors")
+        ScrollView{
+            ForEach(vendors){
+                vendor in
+                NavigationLink{
+                    VendorItemDetailView(vendor: vendor)
+                } label : {
+                    VendorItemView(vendor: vendor)
+                }
+            }
+        }
     }
 }
 
 struct VendorsMainView_Previews: PreviewProvider {
     static var previews: some View {
-        VendorsMainView()
+        VendorsMainView(vendor: Vendor(name: "business", hours: "Eventually", location: "Somewhere", description: "We sell Stuff", image: "foodDefault"))
     }
 }

@@ -16,11 +16,11 @@ struct ContentView: View {
                 LoadingScreenView()
             }else{
                 MainMenuView()
-                FooterMenuView(menuItem: MainNavItem(image: "juggleShapes", name: "Discover WaCo"))
+                
+                
+                
                 
             }
-           
-           
         }
         .padding()
     }
